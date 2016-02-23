@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def home
-    @title="Accueil" #title is a variable instance
+    @title="Home" #title is a variable instance
   end
 
   def contact
@@ -8,7 +8,11 @@ class PagesController < ApplicationController
   end
 
   def about
-    @title="A Propos"
+    @title="About"
+  end
+
+  def help
+    @title="Help"
   end
 
 end
